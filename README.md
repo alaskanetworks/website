@@ -1,30 +1,34 @@
 # Alaska Networks Website
 
-Static business website for Alaska Networks LLC.
+Professional static website for Alaska Networks LLC.
 
-## Files
+## Upload to GitHub
 
-- `index.html` — main website
-- `styles.css` — design and responsive layout
-- `script.js` — mobile menu, header behavior, and reveal animations
-- `privacy.html` — basic privacy notice
-- `CNAME` — custom domain for GitHub Pages
-- `assets/alaska-networks-logo.png` — company logo
+Upload everything in this folder to the root of the `main` branch:
 
-## Publish with GitHub Pages
+- `index.html`
+- `styles.css`
+- `script.js`
+- `privacy.html`
+- `CNAME`
+- `robots.txt`
+- `sitemap.xml`
+- the entire `assets` folder
 
-1. Upload all files and the `assets` folder to the root of the `main` branch.
-2. In the repository, open **Settings → Pages**.
-3. Select **Deploy from a branch**, `main`, and `/(root)`.
-4. Add `alaskanetworks.com` as the custom domain.
-5. Configure the GitHub Pages DNS records at GoDaddy.
-6. Keep all Microsoft 365 email records unchanged.
+Replace existing files when prompted.
 
-## Contact links
+## GitHub Pages
 
-The current call-to-action buttons open the visitor's email client and address messages to:
+Use:
 
-- `info@alaskanetworks.com`
-- `support@alaskanetworks.com`
+- Source: Deploy from a branch
+- Branch: `main`
+- Folder: `/(root)`
 
-A hosted form service can be added later if desired.
+## Custom domain
+
+The included `CNAME` file contains:
+
+`alaskanetworks.com`
+
+Keep all Microsoft 365 DNS records unchanged when connecting GitHub Pages.
