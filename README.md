@@ -32,3 +32,9 @@ The included `CNAME` file contains:
 `alaskanetworks.com`
 
 Keep all Microsoft 365 DNS records unchanged when connecting GitHub Pages.
+
+
+## Version 3
+
+- Separates support requests from general inquiries.
+- Moves the headline beside the hero artwork so it does not cover the logo.
