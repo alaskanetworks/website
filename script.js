@@ -2,11 +2,11 @@ const header = document.querySelector(".site-header");
 const menuButton = document.querySelector(".menu-button");
 const nav = document.querySelector(".main-nav");
 const links = document.querySelectorAll(".main-nav a");
-const reveals = document.querySelectorAll(".reveal");
+const revealItems = document.querySelectorAll(".reveal");
 const year = document.getElementById("year");
 
 function updateHeader() {
-  header.classList.toggle("scrolled", window.scrollY > 24);
+  header.classList.toggle("scrolled", window.scrollY > 20);
 }
 updateHeader();
 window.addEventListener("scroll", updateHeader, { passive: true });
@@ -34,6 +34,6 @@ const observer = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.12 });
 
-reveals.forEach(item => observer.observe(item));
+revealItems.forEach(item => observer.observe(item));
 
 if (year) year.textContent = new Date().getFullYear();

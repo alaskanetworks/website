@@ -1,10 +1,12 @@
-# Alaska Networks Website
+# Alaska Networks Premium Website
 
-Professional static website for Alaska Networks LLC.
+A polished static website for Alaska Networks LLC.
 
-## Upload to GitHub
+## Upload
 
-Upload everything in this folder to the root of the `main` branch:
+Upload every file and the entire `assets` folder to the root of the GitHub repository.
+
+Files included:
 
 - `index.html`
 - `styles.css`
@@ -13,36 +15,15 @@ Upload everything in this folder to the root of the `main` branch:
 - `CNAME`
 - `robots.txt`
 - `sitemap.xml`
-- the entire `assets` folder
+- `assets/logo.png`
+- `assets/hero-banner.png`
 
-Replace existing files when prompted.
+## Contact routing
 
-## GitHub Pages
+- Technical support: `support@alaskanetworks.com`
+- General inquiries and quotes: `info@alaskanetworks.com`
+- Phone: `(907) 720-8820`
 
-Use:
+## Security
 
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/(root)`
-
-## Custom domain
-
-The included `CNAME` file contains:
-
-`alaskanetworks.com`
-
-Keep all Microsoft 365 DNS records unchanged when connecting GitHub Pages.
-
-
-## Version 3
-
-- Separates support requests from general inquiries.
-- Moves the headline beside the hero artwork so it does not cover the logo.
-
-
-## Version 4
-
-- Adds a clickable top contact bar.
-- Adds business phone number `(907) 720-8820`.
-- Keeps support requests directed to `support@alaskanetworks.com`.
-- Keeps general inquiries and quotes directed to `info@alaskanetworks.com`.
+This is a static GitHub Pages site with no database, no server-side login, and no exposed application backend.
