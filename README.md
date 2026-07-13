@@ -38,3 +38,11 @@ Keep all Microsoft 365 DNS records unchanged when connecting GitHub Pages.
 
 - Separates support requests from general inquiries.
 - Moves the headline beside the hero artwork so it does not cover the logo.
+
+
+## Version 4
+
+- Adds a clickable top contact bar.
+- Adds business phone number `(907) 720-8820`.
+- Keeps support requests directed to `support@alaskanetworks.com`.
+- Keeps general inquiries and quotes directed to `info@alaskanetworks.com`.
