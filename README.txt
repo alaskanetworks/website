@@ -1,0 +1,1 @@
+Place your existing logo in assets/logo.png and your northern lights image in assets/hero-banner.png.
